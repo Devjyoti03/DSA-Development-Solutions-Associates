@@ -3,7 +3,7 @@ import { IntroServiceCardData } from "../ourServiceData"
 
 import TabServiceWrapper from "./TabServiceWrapper"
 import {CloudServices} from './ourServiceNavData'
-import img from "../../../assets/serviceBanner.jpg";
+import img from "../../../assets/cloud.gif";
 import IntroBanner from "../../landing/IntroBanner";
 const Application = () => {
   return (

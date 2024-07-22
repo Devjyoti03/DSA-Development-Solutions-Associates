@@ -1,7 +1,7 @@
 
 import TabServiceWrapper from "./TabServiceWrapper"
 import {DataAnalyticsServices} from './ourServiceNavData'
-import img from "../../../assets/serviceBanner.jpg";
+import img from "../../../assets/business.gif";
 import IntroBanner from "../../landing/IntroBanner";
 const DataAnalytics = () => {
   return (

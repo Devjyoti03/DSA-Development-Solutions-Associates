@@ -1,6 +1,6 @@
 import TabServiceWrapper from "./TabServiceWrapper";
 import { ApplicationDevelopmentServices } from "./ourServiceNavData";
-import img from "../../../assets/serviceBanner.jpg";
+import img from "../../../assets/ezgif.com-resize.gif";
 import IntroBanner from "../../landing/IntroBanner";
 const Application = () => {
   return (

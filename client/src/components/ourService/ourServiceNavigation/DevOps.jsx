@@ -1,6 +1,6 @@
 import TabServiceWrapper from "./TabServiceWrapper"
 import {DevOpsServices} from './ourServiceNavData'
-import img from "../../../assets/serviceBanner.jpg";
+import img from "../../../assets/dev-ezgif.com-resize.gif";
 import IntroBanner from "../../landing/IntroBanner";
 const DevOps = () => {
   return (

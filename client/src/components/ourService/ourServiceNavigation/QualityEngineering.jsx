@@ -1,6 +1,6 @@
 import TabServiceWrapper from "./TabServiceWrapper";
 import { QualityEngineeringService } from "./ourServiceNavData";
-import img from "../../../assets/serviceBanner.jpg";
+import img from "../../../assets/engineer.gif";
 import IntroBanner from "../../landing/IntroBanner";
 const QualityEngineering = () => {
   return (
