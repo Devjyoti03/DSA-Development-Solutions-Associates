@@ -29,9 +29,9 @@ const AboutUs = () => {
       <WhatWeOffer
       data={aboutData[3]}
         imgData={WhatWeOfferData}
-        style="flex flex-col-reverse lg:flex-row bg-white rounded-md shadow-sm lg:px-12 m-4 p-6 border"
-        imgStyle="w-full"
-        contentStyle="lg:ml-10 lg:w-[480px] lg:p-2"
+        style="flex flex-col-reverse md:flex-row bg-white rounded-md shadow-sm md:px-12 m-4 p-6 border"
+        imgStyle="w-full mine"
+        contentStyle="md:ml-10 md:w-[480px] md:p-2"
       />
       {/* <AboutContainer data={aboutData[3]} style='flex flex-col-reverse lg:flex-row ' imgStyle='w-full' contentStyle='lg:ml-10 lg:w-[500px]'/>  */}
       <IntroBanner

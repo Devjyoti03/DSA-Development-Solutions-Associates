@@ -15,7 +15,6 @@ const IntroCards = (props) => {
             <h2 className="text-lg card-title lg:text-2xl">{title}</h2>
             <div className="h-[0.5px] bg-opacity-30 bg-black w-10/12 "></div>
             <p className="text-xs text-justify text-gray-800 lg:text-sm ">{description}</p>
-            
           </div>
         </div>)}
         

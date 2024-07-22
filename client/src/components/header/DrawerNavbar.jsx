@@ -29,7 +29,7 @@ const DrawerNavbar = ({ onLinkClick }) => {
       <li className="text-base font-semibold text-gray-800" >
         <details>
           <summary>
-            <Link to="/ourServices" onClick={onLinkClick}>Our Services</Link>
+            <Link to="/ourServices" onClick={onLinkClick}>Services</Link>
           </summary>
           <ul>
             {IntroServiceCardData.map((service) => (

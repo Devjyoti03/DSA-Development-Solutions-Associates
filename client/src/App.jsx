@@ -20,19 +20,6 @@ import Technology from "./components/technologies/Technology";
 import ApplyForm from './components/career/form/form';
 import OurAchievement from "./components/portfolio/OurAchievement";
 import Profile from './components/portfolio/Profile/profile';
-
-// import Hero from "./components/landing/Hero"; // importing the Hero component
-// import Intro from "./components/landing/Intro";
-// import Intro2 from "./components/about/Intro2";
-// import IntroBanner from "./components/landing/IntroBanner";
-// import IntroCards from "./components/introCards/IntroCards";
-// import Intro3 from "./components/about/Intro3";
-// import svg from "./assets/Animated Shape.svg";
-// // defining the App component
-// import {IntroServiceCardData} from './components/introCards/cardData'
-// import ServiceIntro from "./components/trees/ServiceIntro";
-// // import SliderCheck from "./components/wrappers/Slidercheck";
-// import CenterMode from "./components/Slider/CenterMode";
 import Carousel from "./components/carousel/Carousel";
 import Application from "./components/ourService/ourServiceNavigation/Application";
 import Cloud from './components/ourService/ourServiceNavigation/Cloud'
@@ -41,6 +28,7 @@ import DataAnalytics from "./components/ourService/ourServiceNavigation/DataAnal
 import DevOps from "./components/ourService/ourServiceNavigation/DevOps";
 import QualityEngineering from "./components/ourService/ourServiceNavigation/QualityEngineering";
 import ProcessOverView from "./components/portfolio/OurApproach/ProcessOverView"
+import Nav from "./components/header/Nav";
 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
@@ -61,7 +49,7 @@ function App() {
       <Router>
       <ScrollToTop />
         {/* starting the routing configuration */}
-        <Navbar /> {/* rendering the Navbar component */}
+        <Nav /> {/* rendering the Navbar component */}
         <Routes>
          
           {/* starting the routing configuration */}

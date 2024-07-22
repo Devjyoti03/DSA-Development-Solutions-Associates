@@ -8,7 +8,7 @@ const WhatWeOffer = ({ data, style, imgStyle, contentStyle, imgData }) => {
       }
     >
       <div className={"img flex justify-center items-center " + imgStyle}>
-        <div className="grid gap-4 md:my-10  lg:grid-cols-4 md:grid-cols-3">
+        <div className="grid gap-4 md:my-10  lg:grid-cols-4 sm:grid-cols-2 mine">
           {imgData.map(({ tech, path }, index) => (
             <div
               className="card card-compact flex-1 bg-base-100 md:border md:shadow-none shadow-sm hover:scale-[1.01] lg:max-h-64 max-h-56 lg:max-w-56 p-0 md:hover:shadow-sm cursor-pointer transition-all duration-200 rounded-md"

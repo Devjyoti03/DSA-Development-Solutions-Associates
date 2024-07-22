@@ -3,9 +3,9 @@ import { SocialIcon } from "react-social-icons";
 const Footer = () => {
   return (
     <>
-      <footer className="p-10 footer bg-gray-800 text-neutral-content md:place-content-evenly grid md:flex grid-cols-2">
-        <nav>
-          <h6 className="footer-title opacity-90 ">Quick Link</h6>
+      <footer className="p-10 footer bg-gray-800 text-white md:place-content-evenly grid md:flex grid-cols-2">
+        <nav className="flex flex-col flex-nowrap">
+          <h6 className="footer-title opacity-90 ">Quick Links</h6>
           <Link to="/">
             <a className="opacity-70 text-xs link link-hover">Home</a>
           </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
             <a className="opacity-70 text-xs link link-hover">Contact Us</a>
           </Link>
         </nav>
-        <nav>
+        <nav className="flex flex-col flex-nowrap">
           <h6 className="footer-title opacity-90">Our Services</h6>
           <Link to="/ourServices/ApplicationDevelopment">
             <a className="opacity-70 text-xs link link-hover">
@@ -54,7 +54,7 @@ const Footer = () => {
             </a>
           </Link>
         </nav>
-        <nav>
+        <nav className="flex flex-col flex-nowrap gap-2">
           <h6 className="footer-title opacity-90">Technology</h6>
           <a className="opacity-70 text-xs link link-hover">
             Frontend Development
@@ -71,7 +71,7 @@ const Footer = () => {
             Infrastructure Development
           </a>
         </nav>
-        <nav>
+        <nav className="flex flex-col flex-nowrap gap-2">
           <h6 className="footer-title opacity-90">Office Inquiries</h6>
           <a className="opacity-70 text-xs link link-hover">033-2500 5025</a>
           <a className="opacity-70 text-xs link link-hover">
